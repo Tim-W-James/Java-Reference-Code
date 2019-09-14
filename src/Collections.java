@@ -89,5 +89,20 @@ public class Collections {
         set1.add(3); // duplicate will not be saved
         System.out.print("Hash Set: ");
         set1.forEach(t -> System.out.print(t+" "));
+
+        /*
+         hash map
+         */
+        System.out.println("\n\n--Hash Map--");
+        HashMap<String, Integer> map = new HashMap<>();
+        map.put("Bob", 21); // add elements, (Key, Value)
+        map.put("Jerry", 15);
+        map.put("Jones", 58);
+        System.out.print("\nHash Map: ");
+        Set<String> keys = map.keySet(); // get the set of keys
+        for (String x : keys) {
+            System.out.print(map.get(x)+" ");
+        }
+        System.out.println("\nBob is: "+map.get("Bob")); // get the value from a key
     }
 }
