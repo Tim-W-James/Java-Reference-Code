@@ -1,3 +1,5 @@
+package JavaExamples;
+
 public class Recursion {
     private static void recursiveMethodA (int acc) {
         if (acc == 0) { // base case

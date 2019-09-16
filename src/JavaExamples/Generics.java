@@ -1,3 +1,5 @@
+package JavaExamples;
+
 import java.util.Arrays;
 
 
