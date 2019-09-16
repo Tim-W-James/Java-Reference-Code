@@ -27,6 +27,26 @@ public class Loops {
             System.out.println(x);
         }
 
+        System.out.println("\nBreak and Continue in Loops: ");
+        for (int x = 0; true; x++) {
+            if (x > 9) {
+                System.out.println("value before break: "+x);
+                break; // use break to leave the loop
+            }
+            if (x > 4)
+                continue; // continue will skip any remaining code in the block and start the next iteration
+            System.out.println(x);
+        }
 
+        System.out.println("\nNested Loops: ");
+        outer: // assign a label to the loop
+        for (int x = 0; x < 5; x++) {
+            System.out.println("outer: "+x);
+            for (int y = 0; true; y++) { // nested for loop
+                if (y > 2)
+                    continue outer; // apply continue to the loop labeled 'outer'
+                System.out.println("inner: "+y);
+            }
+        }
     }
 }
