@@ -6,6 +6,8 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
+// NOTE: on kotlin error, rebuild
+
 public class SimpleWindow extends Application {
     public static void main(String[] args) {
         launch(args);
