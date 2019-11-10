@@ -17,7 +17,7 @@ public class Loops {
         } while (iterations < 5); // code will always run at least once
 
         System.out.println("\nFor: ");
-        for (int x = 0; x < 5; x++) { // for loops are compact, (initialization; condition; increment statement)
+        for (int x = 0; x < 5; x++) { // for loops are compact, (initialization; condition; increment)
             System.out.println(x);
         }
 
