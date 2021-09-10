@@ -29,7 +29,7 @@
   <h2 align="center">Java Reference Code</h2>
 
   <p align="center">
-    Some of my reference code for Java used in 2020
+    Some of my reference code for Java used in 2020.
     <br />
 <!--     <a href="https://github.com/Tim-W-James/repo_name"><strong>Explore the docs »</strong></a>
     <br /> 
@@ -56,11 +56,11 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#usage">Usage</a>
       <ul>
 <!--        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li> -->
-        <li><a href="#development">Development</a></li>
+<!--         <li><a href="#development">Development</a></li> -->
       </ul> 
     </li>
 <!--     <li>
@@ -93,9 +93,7 @@ Collection of Java reference code for basic syntax, data structures and JavaFX.
 * IntelliJ IDEA
 
 <!-- GETTING STARTED -->
-## Getting Started
-   
-### Development
+## Usage
 
 Use IntelliJ IDEA.
 
