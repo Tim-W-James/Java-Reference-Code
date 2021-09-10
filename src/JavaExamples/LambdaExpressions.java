@@ -1,3 +1,5 @@
+package JavaExamples;
+
 import java.util.Scanner;
 import java.util.function.IntFunction;
 import java.util.function.IntPredicate;

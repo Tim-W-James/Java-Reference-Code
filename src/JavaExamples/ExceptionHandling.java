@@ -1,3 +1,5 @@
+package JavaExamples;
+
 import java.util.Scanner;
 
 /*
@@ -92,7 +94,7 @@ public class ExceptionHandling {
                 System.out.println("Exception: "+ex.getMessage()+". Try another input:");
             }
             finally {
-                System.out.println("Attempts made: "+acc+".");
+                System.out.println("Attempts made: "+acc+ "");
                 acc++;
             }
         }
