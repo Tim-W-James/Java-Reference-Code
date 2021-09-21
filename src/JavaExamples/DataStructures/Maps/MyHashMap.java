@@ -1,14 +1,14 @@
-package JavaExamples.ADTs.Maps;
+package JavaExamples.DataStructures.Maps;
 
 import java.util.LinkedList;
 
-public class HashMap<K,V> implements Map<K,V> {
+public class MyHashMap<K,V> implements MyMap<K,V> {
     final static int DEFAULT_BKTS = 2; // start small while testing, then make bigger
 
     LinkedList<KVPair>[] table;
     int pairs;
 
-    public HashMap() {
+    public MyHashMap() {
         table = new LinkedList[DEFAULT_BKTS];
     }
 

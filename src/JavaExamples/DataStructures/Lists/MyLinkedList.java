@@ -1,6 +1,6 @@
-package JavaExamples.ADTs.Lists;
+package JavaExamples.DataStructures.Lists;
 
-public class LinkedList<T> implements List<T> {
+public class MyLinkedList<T> implements MyList<T> {
     LL first, last;
     int elements;
 
@@ -25,7 +25,7 @@ public class LinkedList<T> implements List<T> {
 
     @Override
     public void add(T value) {
-        if (first == null)  // adding to an empty LinkedList
+        if (first == null)  // adding to an empty Linked List
             first = last = new LL(value, null);
         else {
             last.next = new LL(value, null);

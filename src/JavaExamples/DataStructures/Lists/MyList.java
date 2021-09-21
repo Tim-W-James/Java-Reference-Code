@@ -1,6 +1,6 @@
-package JavaExamples.ADTs.Lists;
+package JavaExamples.DataStructures.Lists;
 
-public interface List<T> {
+public interface MyList<T> {
     public void add(T value);
     public void remove(int index);
     public int size();

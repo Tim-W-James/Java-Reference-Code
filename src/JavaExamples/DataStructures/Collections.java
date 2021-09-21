@@ -1,4 +1,4 @@
-package JavaExamples;
+package JavaExamples.DataStructures;
 
 import java.util.*;
 

@@ -1,6 +1,6 @@
-package JavaExamples.ADTs.Sets;
+package JavaExamples.DataStructures.Sets;
 
-public interface Set<T> {
+public interface MySet<T> {
     /**
      * Add a value to the set if it does not already exist.
      * @param element The value to be added.

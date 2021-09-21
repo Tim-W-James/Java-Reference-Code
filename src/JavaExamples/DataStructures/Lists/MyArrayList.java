@@ -1,6 +1,6 @@
-package JavaExamples.ADTs.Lists;
+package JavaExamples.DataStructures.Lists;
 
-public class ArrayList<T> implements List<T> {
+public class MyArrayList<T> implements MyList<T> {
     private static final int INITIAL_SIZE = 2; // too big and it will not exercise our tests
     private static final float GROWTH_FACTOR = 1.5f;  // could chose some other ----> experiment
 

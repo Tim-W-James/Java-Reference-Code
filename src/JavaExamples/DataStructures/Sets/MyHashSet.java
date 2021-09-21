@@ -1,14 +1,14 @@
-package JavaExamples.ADTs.Sets;
+package JavaExamples.DataStructures.Sets;
 
 import java.util.LinkedList;
 
-public class HashSet<T> implements Set<T> {
+public class MyHashSet<T> implements MySet<T> {
     final static int DEFAULT_BKTS = 2; // start small while testing, then make bigger
 
     LinkedList<T>[] table;
     int elements;
 
-    public HashSet() {
+    public MyHashSet() {
         table = new LinkedList[DEFAULT_BKTS];
     }
 

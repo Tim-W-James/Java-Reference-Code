@@ -1,4 +1,4 @@
-package JavaExamples;
+package JavaExamples.OOP;
 
 public class Enums {
     // simple enum

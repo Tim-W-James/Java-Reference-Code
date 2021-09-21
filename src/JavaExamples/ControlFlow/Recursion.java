@@ -1,4 +1,4 @@
-package JavaExamples;
+package JavaExamples.ControlFlow;
 
 public class Recursion {
     private static void recursiveMethodA (int acc) {

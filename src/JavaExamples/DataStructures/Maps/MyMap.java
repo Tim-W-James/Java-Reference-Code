@@ -1,6 +1,6 @@
-package JavaExamples.ADTs.Maps;
+package JavaExamples.DataStructures.Maps;
 
-public interface Map<K,V> {
+public interface MyMap<K,V> {
     /**
      * Add a (key, value) pair to the map.   If the key already exists,
      * overwrite the existing value with the value provided.

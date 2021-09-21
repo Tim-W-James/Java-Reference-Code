@@ -1,4 +1,4 @@
-package JavaExamples;
+package JavaExamples.Concurrency;
 
 import java.util.concurrent.TimeUnit;
 

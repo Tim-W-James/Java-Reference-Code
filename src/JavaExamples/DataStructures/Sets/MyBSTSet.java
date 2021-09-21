@@ -1,6 +1,6 @@
-package JavaExamples.ADTs.Sets;
+package JavaExamples.DataStructures.Sets;
 
-public class BSTSet<T> implements Set<T> {
+public class MyBSTSet<T> implements MySet<T> {
 
     BSTree tree;
     int elements;

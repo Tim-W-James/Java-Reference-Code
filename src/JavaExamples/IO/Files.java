@@ -1,4 +1,4 @@
-package JavaExamples;
+package JavaExamples.IO;
 
 import java.io.*;
 

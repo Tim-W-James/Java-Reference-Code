@@ -32,7 +32,7 @@
     Some of my reference code for Java.
     <br />
 <!--     <a href="https://github.com/Tim-W-James/repo_name"><strong>Explore the docs »</strong></a>
-    <br /> 
+    <br />
     <br /> -->
 <!--    <a href="https://github.com/Tim-W-James/Java-Tower-of-Hanoi/releases">View Demo</a> -->
 <!--     ·
@@ -61,7 +61,7 @@
 <!--        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li> -->
 <!--         <li><a href="#development">Development</a></li> -->
-      </ul> 
+      </ul>
     </li>
 <!--     <li>
         <a href="#usage">Usage</a>
@@ -96,6 +96,9 @@ Collection of Java reference code for basic syntax, data structures and JavaFX.
 ## Usage
 
 Use IntelliJ IDEA.
+Libraries:
+* JavaFX
+* JUnit
 
 
 

@@ -1,4 +1,4 @@
-package JavaExamples;
+package JavaExamples.ControlFlow;
 
 public class Loops {
     public static void main(String[] args) {

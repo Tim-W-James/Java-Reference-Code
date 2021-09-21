@@ -1,6 +1,6 @@
-package JavaExamples.ADTs.Maps;
+package JavaExamples.DataStructures.Maps;
 
-public class BSTMap<K, V> implements Map<K, V> {
+public class MyBSTMap<K, V> implements MyMap<K, V> {
     BSTree tree;
     int elements;
 
