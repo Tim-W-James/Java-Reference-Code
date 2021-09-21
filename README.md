@@ -29,7 +29,7 @@
   <h2 align="center">Java Reference Code</h2>
 
   <p align="center">
-    Some of my reference code for Java used in 2020.
+    Some of my reference code for Java.
     <br />
 <!--     <a href="https://github.com/Tim-W-James/repo_name"><strong>Explore the docs »</strong></a>
     <br /> 
